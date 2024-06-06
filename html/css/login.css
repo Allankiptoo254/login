@@ -1,0 +1,31 @@
+html{
+    display: grid;
+    height: 100vj;
+    place-items: center;
+    background: green;
+}
+.main-div{
+    width: 365px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+.main-div .title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.main-div .social-icons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
